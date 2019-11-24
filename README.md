@@ -8,5 +8,3 @@ Running Jenkins via nginx reverse proxy with the Let's Encrypt cert:
 6. Change nginx config to forward incoming 443 traffic to localhost:8080
 7. Change /etc/default/jenkins to listen on 127.0.0.1:8080
 8. Restart nginx, jenkins. This should be all :)
-
-Test page available: https://jenkins.moonhome.net/
